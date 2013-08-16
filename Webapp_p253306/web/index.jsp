@@ -9,9 +9,33 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Desarrollo de Aplicaciones Web</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Maestria en Software Libre</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Informacion de Alumnos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Para ver la información
+                    seleccione el nombre:</td>
+                </tr>
+                <tr>
+                    <td><form action="response.jsp">
+                    <strong>Seleccione un nombre:</strong></td>
+                    <select name="nombre_id">
+                        <option></option>
+                        <option></option>
+                    </select>
+                    <input type="submit" value="submit" name="submit" />
+                         </form>
+                </tr>
+            </tbody>
+        </table>
+
     </body>
 </html>
