@@ -24,11 +24,11 @@
             <tbody>
                 <tr>
                     <td>Para ver la información
-                        seleccione el nombre:</td>
+                        seleccione el alumno a consultar:</td>
                 </tr>
                 <tr>
                     <td><form action="response.jsp">
-                            <strong>Seleccione un nombre:</strong>
+                            <strong>Seleccione matricula:</strong>
                             <select name="nombre_id">
                                 <option></option>
                             </select>
