@@ -13,7 +13,8 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1>Maestria en Software Libre</h1>
+        <h1>Desarrollo de Aplicaciones Web</h1>
+        <h2>Maestria en Software Libre</h2>
         <table border="1">
             <thead>
                 <tr>
@@ -23,17 +24,17 @@
             <tbody>
                 <tr>
                     <td>Para ver la información
-                    seleccione el nombre:</td>
+                        seleccione el nombre:</td>
                 </tr>
                 <tr>
                     <td><form action="response.jsp">
-                    <strong>Seleccione un nombre:</strong></td>
-                    <select name="nombre_id">
-                        <option></option>
-                        <option></option>
-                    </select>
-                    <input type="submit" value="submit" name="submit" />
-                         </form>
+                            <strong>Seleccione un nombre:</strong>
+                            <select name="nombre_id">
+                                <option></option>
+                            </select>
+                            <input type ="submit" value="submit" name="submit" />
+                        </form>
+                    </td>
                 </tr>
             </tbody>
         </table>
