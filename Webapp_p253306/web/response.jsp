@@ -7,8 +7,8 @@
 --%>
 <sql:query var="counselorQuery" dataSource="jdbc/IFPWAFCAD">
     SELECT * FROM nombre, datos
-    WHERE datos.Nombre_id = nombre.Nombre_idfk
-    AND nombre.Datos_id = ? <sql:param value="${param.Datos_id}"/>
+    WHERE nombre.Nombre_id = datos.Nombre_idfk
+    AND datos.Datos_id = ? <sql:param value="${param.Datos_id}"/>
 </sql:query>
     
    <c:set var="counselorDetails" value="${counselorQuery.rows[0]}"/>

@@ -6,7 +6,7 @@
     Author     : Rango
 --%>
 <sql:query var="nombres" dataSource="jdbc/IFPWAFCAD">
-    SELECT Datos_id, name FROM nombre
+    SELECT Datos_id, name FROM datos
 </sql:query>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
